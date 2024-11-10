@@ -18,7 +18,7 @@ To back up an Active Directory–integrated zone, perform the following steps:
 1. Launch an elevated command prompt.
  Run the following command:
 
-**   dnscmd /ZoneExport "zone name" "zone file name"**   
+**dnscmd /ZoneExport zone name zone file name**   
 3. where "zone name" is the name of your DNS zone, and "zone file name" is the file that you want to create to hold the backup information.
    
 The dnscmd tool exports the zone data to the file name that you designate in the command, to the %windir%\System32\DNS directory.
